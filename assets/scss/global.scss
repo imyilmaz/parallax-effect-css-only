@@ -41,19 +41,47 @@ body{
             }
         }
         &-1{
+            transform: translateZ(-10px) scale(15);
+            z-index: -10;
             img{
-                transform: translateZ(-10px) scale(15);
             }
         }
         &-2{
+            transform: translateZ(-7px) scale(9);
+            z-index: -7;
             img{
-                transform: translateZ(-7px) scale(9);
             }
         }
         &-3{
+            transform: translateZ(-4px) scale(7);
+            z-index: -4;
             img{
-                transform: translateZ(-4px) scale(7);
             }
         }
+    }
+    .text{
+        background: #181818;
+        color: #fff;
+        font-size: 2rem;
+        padding: 1rem;
+        display: block;
+        position: relative;
+        text-align: center;
+        position: relative;
+        span{
+            color: #00ffd0;
+        }
+        &-1{ transform: translateZ(-1px) scale(1); top: -600px; z-index: -1; }
+        &-2{ transform: translateZ(-2px) scale(2); top: -500px; z-index: -2; }
+        &-3{ transform: translateZ(-3px) scale(3); top: -500px; z-index: -3; }
+        &-4{ transform: translateZ(-4px) scale(4); top: -600px; z-index: -4; }
+        &-5{ transform: translateZ(-5px) scale(5); top: -900px; z-index: -5; }
+        &-6{ transform: translateZ(-6px) scale(6); top: -1300px; z-index: -6; }
+        &-7{ transform: translateZ(-7px) scale(7); top: -1900px; z-index: -7; }
+        &-8{ transform: translateZ(-8px) scale(8); top: -2600px; z-index: -8; }
+        &-9{ transform: translateZ(-9px) scale(9); top: -3500px; z-index: -9; }
+        &-10{ transform: translateZ(-10px) scale(10); top: -4500px; z-index: -10; }
+        &-11{ transform: translateZ(-11px) scale(11); top: -5700px; z-index: -11; }
+        &-12{ transform: translateZ(-12px) scale(12); top: -7000px; z-index: -12; }
     }
 }//main
